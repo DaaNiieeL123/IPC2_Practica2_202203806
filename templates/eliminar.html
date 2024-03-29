@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Clientes</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    {% include 'index.html' %}
+    <div class="perfilContainer">
+        <h1 class="title">Clientes Almacenados</h1>
+        <div class="datosPerfil1">
+            <h2 class="label">Eliminar Cliente</h2>
+            <form action="/eliminarCliente" method="POST">
+                <div>
+                    <label class="texto1" for="nit">NIT Del Cliente a Eliminar:</label>
+                    <input class="input4" placeholder="Ingrese el NIT" type="text" id="nit" name="nit" required>
+                    <br>
+                    <button class="boton1" type="submit">Eliminar</button>
+                </div>
+            </form>
+            {% if mensaje %}
+                <p class="mensaje">{{ mensaje }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Clientes</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    {% include 'index.html' %}
+    <div class="perfilContainer">
+        <h1 class="title">Bienvenido UoalMart</h1>
+        <div class="datosPerfil">
+            <form action="/registrar" method="POST">
+                <div>
+                    <h2 class="label">Registro de Clientes</h2>
+                    <br>
+
+                    <label class="texto" for="nombre">Nombre:</label>
+                    <input class="input" placeholder="Ingrese el Nombre" type="text" id="nombre" name="nombre" required>
+                    <br>
+
+                    <label class="texto" for="apellido">Apellido:</label>
+                    <input class="input" placeholder="Ingrese el Apellido" type="text" id="apellido" name="apellido" required>
+                    <br>
+
+                    <label class="texto" for="Correo">Correo Electronico:</label>
+                    <input class="input1" placeholder="Ingrese el Correo" type="text" id="Correo" name="Correo" required>
+                    <br>  
+
+                    <label  class="texto" for="nit">NIT:</label>
+                    <input  class="input2" placeholder="Ingrese el NIT" type="text" id="nit" name="nit" required>
+                    <br>
+
+                    <button class="boton" type="submit">Registrar</button> 
+                </div>
+            </form>
+            {% if mensaje %}
+                <p class="mensaje">{{ mensaje }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

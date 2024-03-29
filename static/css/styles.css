@@ -1,0 +1,357 @@
+
+.perfilContainer {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.label{
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;  
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px; 
+    color: white; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    animation: fadeInUp 1s ease; 
+    transition: font-size 0.3s ease; 
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .title:hover {
+    font-size: 33px;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .datosPerfil {
+    background: #F7F8F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 18px;
+    max-width: 600px;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 15px; 
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .datosPerfil p {
+    margin: 0;
+    margin-bottom: 8px; 
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .datosPerfil strong {
+    font-weight: bold;
+  }
+
+.texto {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Comic Sans MS', cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    margin-left: 100px;
+    margin-right: auto;
+}
+.input1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    margin-left: 140px;
+    margin-right: auto;
+}
+
+.texto1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Comic Sans MS', cursive;
+    margin-left: 150px;
+    margin-right: auto;
+    text-align: center;
+}
+.input4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.datosPerfil1 {
+    background: #F7F8F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 18px;
+    max-width: 950px;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 15px; 
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .datosPerfil1 p {
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: 'Comic Sans MS', cursive; 
+  }
+  
+  .datosPerfil1 strong {
+    font-weight: bold;
+  }
+
+  .boton,
+.verifyButton {
+  background: #232526; 
+  background: -webkit-linear-gradient(to right, #414345, #232526); 
+  background: linear-gradient(to right, #414345, #232526); 
+  border: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: transform 0.2s;
+  font-size: 14px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-top: 10px; 
+  font-family: 'Comic Sans MS', cursive; 
+  margin-left: 250px;
+}
+
+
+
+.boton:hover,
+.verifyButton:hover {
+    color: white; 
+    background: #6A9113;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #141517, #6A9113);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #141517, #6A9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: scale(1.05); 
+}
+
+
+.boton:focus,
+.verifyButton:focus {
+  outline: none;
+}
+
+.tabs {
+    display: flex;
+  }
+  
+  .tab {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px; 
+    text-transform: uppercase; 
+    transition: transform 0.2s ease, font-size 0.2s ease; 
+  }
+  
+  .tab:hover {
+    transform: scale(1.1); 
+    text-shadow: 1px 1px 2px black; 
+  }
+  
+  .activeTab {
+    background: #1e130c;  
+  background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  
+  background: linear-gradient(to right, #9a8478, #1e130c); 
+    color: white; 
+    border-radius: 10px;
+  }
+  
+  .tabContent {
+    margin-top: 20px;
+    font-family: 'Comic Sans MS', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px; 
+    border: 2px solid #ddd; 
+    text-align: left;
+  }
+  .table th {
+    background: #232526;  
+    background: -webkit-linear-gradient(to right, #414345, #232526);  
+    background: linear-gradient(to right, #414345, #232526); 
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Comic Sans MS', cursive;
+  }
+
+  .boton1 {
+    background: #232526; 
+    background: -webkit-linear-gradient(to right, #414345, #232526); 
+    background: linear-gradient(to right, #414345, #232526); 
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 10px; 
+    font-family: 'Comic Sans MS', cursive; 
+    margin-left: 420px;
+    margin-right: auto; 
+  }
+  
+  
+  
+  .boton1:hover {
+      color: white; 
+      background: #6A9113;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #141517, #6A9113);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #141517, #6A9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      transform: scale(1.05); 
+  }
+  
+  
+  .boton1:focus{
+    outline: none;
+  }
+
+.mensaje{
+    font-size: 20px;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Comic Sans MS', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.boton2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.boton2 {
+    background: #232526; 
+    background: -webkit-linear-gradient(to right, #414345, #232526); 
+    background: linear-gradient(to right, #414345, #232526); 
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: transform 0.2s;
+    font-size: 14px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 10px; 
+    font-family: 'Comic Sans MS', cursive; 
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+  
+  
+  .boton2:hover {
+      color: white; 
+      background: #6A9113;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #141517, #6A9113);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #141517, #6A9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      transform: scale(1.05); 
+  }
+  
+  
+  .boton2:focus{
+    outline: none;
+  }

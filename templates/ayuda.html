@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    {% include 'index.html' %}
+    <div class="perfilContainer">
+        <h1 class="title">Ayuda</h1>
+        <div class="datosPerfil">
+            <h1 class="label">Datos del Estudiante</h1>
+            <p><strong>Nombre: </strong> {{ nombres }}</p>
+            <p><strong>Apellido: </strong> {{ apellidos }}</p>
+            <p><strong>Carnet:</strong> {{ carnet }}</p>
+            <p><strong>Practica:</strong>{{practica}}</p>
+            <h2 class="label">Documentación</h2>
+            <p><strong>Enlace a la documentación: </strong><br>
+        <button class="boton2"><a href="{{ enlace }}" target="_blank">{{ enlace }}</a></p></button>
+        </div>
+    </div>
+</body>
+</html>
